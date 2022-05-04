@@ -1,0 +1,148 @@
+body {
+    font-family: 'Ubuntu', sans-serif;;
+}
+.top {
+    height: 100%;
+}
+.logo {
+    position: relative;
+    width: 75%;
+    height: 75%;
+    display: block;
+    margin: 0 auto;
+    filter: blur(0px);
+    animation-name: blur;
+    animation-duration: 1s;
+}
+@keyframes blur {
+    0% {
+      filter: blur(10px);
+    }
+    100% {
+      filter: blur(0);
+    }
+  }
+.arrow{
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    border: 5px solid;
+    border-color:  transparent transparent black black;
+    transform: rotate(-45deg);
+    transition-delay : 2s;
+    animation: fadeIn 5s linear;
+    animation-fill-mode: both;
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+h1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 48px;
+}
+h2 {
+    margin-left: 4%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+p {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 6%;
+}
+.seemore {
+    width: 125px;
+    height: 125px;
+    left: 101px;
+    margin: 10;
+    padding: 10 10 10 10;
+    margin-left:  8%;
+    margin-bottom: 35px;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    margin-bottom: 50;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.container div {
+	width: 50%;
+}
+.item {
+    list-style: none;
+    font-family: 'Ubuntu';
+    font-size: 64px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 600;
+    height: 200;
+    padding: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin: 50px 200px 50px 50px; */
+    color: black;
+    text-decoration: none;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card{
+    align-items: center;
+    display:flex;
+    margin:10 50 50 50;
+    padding: 10 10 10 10;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card_img {
+    text-align: center;
+    width: 30%;
+    margin: 10 10 100 100;
+}
+.card_img img {
+    width:300;
+    object-fit: cover;
+}   
+.card_txt  {
+    text-align: left;
+    width: 70%;
+    margin-top: 0%;
+}
+.social_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding:  10 10 100 100;
+}
+.social_card {
+    text-align: center;
+    align-items: center;
+    height: 600;
+    width: 450;
+    margin: 10 100 10 100;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.social_card img {
+    width: 450px
+}
+footer {
+    text-align: center;
+}
