@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Ubuntu:wght@400;500&display=swap');
+:root {
+    --shadow: 5px 5px 10px #0000001a;
+}
 body {
     font-family: "Ubuntu", "Noto Sans JP", sans-serif;
     margin: 0;
@@ -8,7 +11,7 @@ header {
     display: inline-block;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    box-shadow: 5px 5px 10px #0000001a;
+    box-shadow: var(--shadow);
     position: fixed;
     top: 0;
     left: 0;
@@ -77,20 +80,16 @@ header {
 }
 h1 {
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
     font-size: 48px;
 }
 h2 {
     margin-left: 4%;
-    font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
 }
 h3 {
-    font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
 }
 p {
-    font-family: 'Noto Sans JP', sans-serif;
     margin-left: 6%;
 }
 .seemore {
@@ -106,8 +105,12 @@ p {
     text-align: center;
     color: black;
     background: #FFFFFF;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow);
+    transition: all 0.7s;
     text-decoration: none;
+}
+.seemore:hover {
+    box-shadow: none;
 }
 .container {
     display: flex;
@@ -136,7 +139,11 @@ p {
     color: black;
     text-decoration: none;
     background: #FFFFFF;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow);
+    transition: all 0.7s;
+}
+.item:hover {
+    box-shadow: none;
 }
 .card{
     align-items: center;
@@ -144,7 +151,11 @@ p {
     margin:10 50 50 50;
     padding: 10 10 10 10;
     background: #FFFFFF;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow);
+    transition: all 0.7s;
+}
+.card:hover {
+    box-shadow: none;
 }
 .card_img {
     text-align: center;
@@ -172,7 +183,11 @@ p {
     width: 450;
     margin: 10 100 10 100;
     background: #FFFFFF;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow);
+    transition: all 0.7s;
+}
+.social_card:hover {
+    box-shadow: none;
 }
 .social_card img {
     width: 450px
