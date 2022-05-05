@@ -2,43 +2,6 @@
 :root {
     --shadow: 5px 5px 10px #0000001a;
 }
-body {
-    font-family: "Ubuntu", "Noto Sans JP", sans-serif;
-    color: #000000;
-    margin: 0;
-    background-color: #ffffff;
-}
-header {
-    z-index: 10;
-    display: inline-block;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: var(--shadow);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    background-color: #ffffffcc;
-}
-#head-logo {
-    margin-left: 50px;
-    height: 50px;
-    display: inline-block;
-}
-#head-nav {
-    margin-right: 50px;
-    display: inline;
-    float: right;
-}
-#head-nav-ul > li {
-    display: inline-block;
-    margin-left: 25px;
-}
-#head-nav-ul > li > a {
-    color: black;
-    text-decoration: none;
-}
 .top {
     clear: both;
     height: 100%;
