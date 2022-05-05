@@ -162,6 +162,7 @@ p {
 .card_img {
     text-align: center;
     width: 30%;
+    margin: 10px;
 }
 .card_img img {
     width: 300;
@@ -171,6 +172,7 @@ p {
     text-align: left;
     width: 70%;
     margin-top: 0%;
+    margin-left: 50px;
 }
 .card_txt > * {
     margin: 0;
