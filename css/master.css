@@ -4,7 +4,9 @@
 }
 body {
     font-family: "Ubuntu", "Noto Sans JP", sans-serif;
+    color: #000000;
     margin: 0;
+    background-color: #ffffff;
 }
 header {
     z-index: 10;
@@ -160,16 +162,18 @@ p {
 .card_img {
     text-align: center;
     width: 30%;
-    margin: 10 10 100 100;
 }
 .card_img img {
-    width:300;
+    width: 300;
     object-fit: cover;
 }   
 .card_txt  {
     text-align: left;
     width: 70%;
     margin-top: 0%;
+}
+.card_txt > * {
+    margin: 0;
 }
 .social_container {
     display: flex;
