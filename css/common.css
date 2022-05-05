@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    background-color: white;
+}
+header {
+    az-index: 10;
+    display: inline-block;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: var(--shadow);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #ffffffcc;
+}
+.text {
+    padding: 100  50 100 50;
+    margin: 10% 25% 10% 25%;
+    width: 50%;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.text h2 {
+    text-align: center;
+    font-size: 64px;
+}
+.text h3 {
+    text-align: center;
+    font-size: 20px;
+}
+.text h4 {
+    font-size: 40px;
+}
