@@ -62,7 +62,7 @@ p {
     height: 125px;
     left: 101px;
     margin: 10;
-    padding: 10 10 10 10;
+    padding: 10px;
     margin-left:  8%;
     margin-bottom: 35px;
     font-family: 'Ubuntu';
@@ -79,7 +79,7 @@ p {
 }
 .container {
     display: flex;
-    margin-bottom: 50;
+    margin-bottom: 50px;
     margin-right: 25px;
     margin-left: 25px;
     margin-top: 10px;
@@ -96,7 +96,6 @@ p {
     display: inline-block;
     position: relative;
     width: 600;
-    height: 200;
     padding: 5%;
     margin-left: 20px;
     margin-right: 20px;
@@ -110,10 +109,10 @@ p {
 .item:hover {
     box-shadow: none;
 }
-.card{
+.card {
     align-items: center;
     display:flex;
-    margin:10 50 50 50;
+    margin:10px 50px 50px 50px;
     padding: 10 10 10 10;
     background: #FFFFFF;
     box-shadow: var(--shadow);
@@ -148,9 +147,9 @@ p {
 .social_card {
     text-align: center;
     align-items: center;
-    height: 600;
-    width: 450;
-    margin: 10 100 10 100;
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
     background: #FFFFFF;
     box-shadow: var(--shadow);
     transition: all 0.7s;
@@ -158,8 +157,21 @@ p {
 .social_card:hover {
     box-shadow: none;
 }
-.social_card img {
-    width: 450px
+.social_card > a {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+}
+.social_logo {
+    height: 200px;
+    text-align:center;
+}
+.social_logo > img {
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 footer {
     text-align: center;
