@@ -42,3 +42,9 @@ header {
 footer {
     text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+    #head-nav-ul {
+        display: none;
+    }
+}
