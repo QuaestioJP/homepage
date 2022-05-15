@@ -13,6 +13,6 @@ window.onload = () => {
         </header>
         ${document.body.innerHTML}
         <footer>
-           <p>&copy; 2022 Quaestio</p>
+            <p>&copy; 2022 Quaestio</p>
         </footer>`
-}
+    }

@@ -4,7 +4,7 @@ body {
     background-color: white;
 }
 header {
-    az-index: 10;
+    z-index: 10;
     display: inline-block;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -22,6 +22,7 @@ header {
     width: 50%;
     background: #FFFFFF;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
 }
 .text h2 {
     text-align: center;
